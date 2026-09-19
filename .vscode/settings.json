@@ -1,5 +1,10 @@
 {
-    "editor.formatOnSave": true,
-    "files.trimTrailingWhitespace": true,
-    "telemetry.telemetryLevel": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "telemetry.telemetryLevel": "off",
+
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  }
 }
