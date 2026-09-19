@@ -1,0 +1,16 @@
+// https://code.visualstudio.com/docs/cpp/customize-cpp-settings
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "compilerPath": "/usr/bin/gcc",
+            "intelliSenseMode": "linux-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/include"
+            ],
+            "defines": [],
+            "cStandard": "c23"
+        }
+    ],
+    "version": 4
+}
