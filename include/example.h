@@ -2,4 +2,4 @@
 
 #include <stdio.h>
 
-void echo(const char *msg);
+void echo(const char* msg);
