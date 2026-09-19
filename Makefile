@@ -14,7 +14,7 @@ DEPS = $(addprefix $(OBJDIR)/,$(SRCS:.c=.d))
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror -std=c23
 CFLAGS += -MMD -MP
-LDFLAGS = -lm
+LDFLAGS = -lc
 
 all: $(TARGET)
 
