@@ -39,6 +39,6 @@ valgrind: $(TARGET)
 	valgrind --leak-check=full ./$(TARGET) -v localhost
 
 debug: CFLAGS += -g -DDEBUG
-debug: all
+debug: re
 
 .PHONY: all clean fclean re valgrind debug
