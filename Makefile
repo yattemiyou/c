@@ -45,4 +45,4 @@ valgrind: $(TARGET)
 debug: CFLAGS += -g -DDEBUG
 debug: re
 
-.PHONY: all clean fclean re valgrind debug
+.PHONY: all clean fclean re asan valgrind debug
