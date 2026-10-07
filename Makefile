@@ -35,6 +35,10 @@ fclean: clean
 
 re: fclean all
 
+asan: CFLAGS += -fsanitize=address
+asan: LDFLAGS += -fsanitize=address
+asan: re
+
 valgrind: $(TARGET)
 	valgrind --leak-check=full ./$(TARGET) -v localhost
 
