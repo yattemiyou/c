@@ -4,6 +4,7 @@
   "telemetry.telemetryLevel": "off",
 
   "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4}",
+  "shellcheck.enable": true,
 
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
